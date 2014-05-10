@@ -1,0 +1,19 @@
+body{margin:0; padding:0; border:0; font-size:9pt;}
+
+#right_top{height:35px;color:#fff;background-image:url(main_09.gif) ; background-repeat:repeat-x;}
+
+#img{height:26px; width:35px; float:left;padding-top:5px; text-align:center;cursor: pointer;}
+
+.imgtext{ float:left; display: block; margin-top:13px; margin-left:3px;cursor: pointer;}
+
+#loginout{float:right; margin-right:35px;padding-top:5px; text-align:center; width:80px;}
+
+#loginoutimg{width:26px; height:26px; float:left;cursor: pointer;}
+
+.logintext{display: block; padding-top:9px; margin-left:3px; float:left;cursor: pointer;}
+
+#right_font{padding-top:10px;height:28px; background-image:url(main_10.gif) ; background-repeat:repeat-x;}
+
+#right_font img {padding-right:8px; margin-left:15px;}
+
+.bfont{ font-weight:bolder; font-size:9pt;}

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.itcast.storemanagement.action.LoginServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>UserAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.UserAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PowerAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.PowerAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.UserDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.UserUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.UserDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PowerDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.PowerDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PowerUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.PowerUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PowerDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.PowerDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoleAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.RoleAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoleDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.RoleDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoleUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.RoleUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoleDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.RoleDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.MenuAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.MenuDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.MenuUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.MenuDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.AccountAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.AccountDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.AccountUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.AccountDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodshavingAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodshavingAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodshavingDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodshavingDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodshavingUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodshavingUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodshavingDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodshavingDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodsAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodsDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodsUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.GoodsDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.BuyAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyDeleteSevlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.BuyDeleteSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.BuyUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.BuyDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaleAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.SaleAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaleDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.SaleDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaleUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.SaleUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaleDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.SaleDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.CustomerAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerDeleteServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.CustomerDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.CustomerUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.CustomerDatagridServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet.do</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAddServlet</servlet-name>
+    <url-pattern>/User!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PowerAddServlet</servlet-name>
+    <url-pattern>/Power!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDatagridServlet</servlet-name>
+    <url-pattern>/User!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserUpdateServlet</servlet-name>
+    <url-pattern>/User!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <url-pattern>/User!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PowerDeleteServlet</servlet-name>
+    <url-pattern>/Power!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PowerUpdateServlet</servlet-name>
+    <url-pattern>/Power!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PowerDatagridServlet</servlet-name>
+    <url-pattern>/Power!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleAddServlet</servlet-name>
+    <url-pattern>/Role!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleDeleteServlet</servlet-name>
+    <url-pattern>/Role!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleUpdateServlet</servlet-name>
+    <url-pattern>/Role!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleDatagridServlet</servlet-name>
+    <url-pattern>/Role!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuAddServlet</servlet-name>
+    <url-pattern>/Menu!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuDeleteServlet</servlet-name>
+    <url-pattern>/Menu!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuUpdateServlet</servlet-name>
+    <url-pattern>/Menu!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuDatagridServlet</servlet-name>
+    <url-pattern>/Menu!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountAddServlet</servlet-name>
+    <url-pattern>/Account!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountDeleteServlet</servlet-name>
+    <url-pattern>/Account!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountUpdateServlet</servlet-name>
+    <url-pattern>/Account!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountDatagridServlet</servlet-name>
+    <url-pattern>/Account!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodshavingAddServlet</servlet-name>
+    <url-pattern>/Goodshaving!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodshavingDeleteServlet</servlet-name>
+    <url-pattern>/Goodshaving!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodshavingUpdateServlet</servlet-name>
+    <url-pattern>/Goodshaving!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodshavingDatagridServlet</servlet-name>
+    <url-pattern>/Goodshaving!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsAddServlet</servlet-name>
+    <url-pattern>/Goods!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsDeleteServlet</servlet-name>
+    <url-pattern>/Goods!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsUpdateServlet</servlet-name>
+    <url-pattern>/Goods!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsDatagridServlet</servlet-name>
+    <url-pattern>/Goods!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyAddServlet</servlet-name>
+    <url-pattern>/Buy!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyDeleteSevlet</servlet-name>
+    <url-pattern>/Buy!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyUpdateServlet</servlet-name>
+    <url-pattern>/Buy!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyDatagridServlet</servlet-name>
+    <url-pattern>/Buy!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaleAddServlet</servlet-name>
+    <url-pattern>/Sale!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaleDeleteServlet</servlet-name>
+    <url-pattern>/Sale!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaleUpdateServlet</servlet-name>
+    <url-pattern>/Sale!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaleDatagridServlet</servlet-name>
+    <url-pattern>/Sale!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerAddServlet</servlet-name>
+    <url-pattern>/Customer!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerDeleteServlet</servlet-name>
+    <url-pattern>/Customer!delete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerUpdateServlet</servlet-name>
+    <url-pattern>/Customer!edit.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerDatagridServlet</servlet-name>
+    <url-pattern>/Customer!datagrid.do</url-pattern>
+  </servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
