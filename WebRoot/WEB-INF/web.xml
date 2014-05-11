@@ -175,8 +175,8 @@
     <servlet-class>com.itcast.storemanagement.action.ImageDatagridServlet</servlet-class>
   </servlet>
   <servlet>
-    <servlet-name>ImageUpdateServlet</servlet-name>
-    <servlet-class>com.itcast.storemanagement.action.ImageUpdateServlet</servlet-class>
+    <servlet-name>ImageDownloadServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.ImageDownloadServlet</servlet-class>
   </servlet>
 
 
@@ -392,11 +392,11 @@
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ImageDatagridServlet</servlet-name>
-    <url-pattern>/Image!datagrid</url-pattern>
+    <url-pattern>/Image!datagrid.do</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>ImageUpdateServlet</servlet-name>
-    <url-pattern>/Image!edit.do</url-pattern>
+    <servlet-name>ImageDownloadServlet</servlet-name>
+    <url-pattern>/Image!download.do</url-pattern>
   </servlet-mapping>
 
 	<welcome-file-list>
