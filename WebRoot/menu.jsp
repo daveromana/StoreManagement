@@ -232,23 +232,41 @@
 							</div>
 						</div> <!-- 客户管理 -->
 						<h1 id="khgl" class="type">
-							<a href="javascript:void(0)">客户管理</a>
-						</h1>
-						<div class="khgl content">
-							<table width="100%" border="0" cellspacing="0" cellpadding="0">
-								<tr>
-									<td><img src="images/menu_topline.gif" /></td>
-								</tr>
-							</table>
-							<c:forEach var="homeData" items="${sessionScope.homeData }">
-								<c:if test="${homeData.powerColumn_name == '客户管理'}">
-									<ul class="MM">
-										<li><a href="${homeData.power_uri }" target="main">${homeData.power_name }</a>
-										<li>
-									</ul>
-								</c:if>
-							</c:forEach>
-						</div>
+								<a href="javascript:void(0)">客户管理</a>
+							</h1>
+							<div class="khgl content">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td><img src="images/menu_topline.gif" width="182"
+											height="5" /></td>
+									</tr>
+								</table>
+								<c:forEach var="homeData" items="${sessionScope.homeData }">
+									<c:if test="${homeData.powerColumn_name == '客户管理'}">
+										<ul class="MM">
+											<li><a href="${homeData.power_uri }" target="main">${homeData.power_name }</a></li>
+										</ul>
+									</c:if>
+								</c:forEach>
+							</div>
+							<h1 id="zpgl" class="type">
+								<a href="javascript:void(0)">照片管理</a>
+							</h1>
+							<div class="zpgl content">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td><img src="images/menu_topline.gif" width="182"
+											height="5" /></td>
+									</tr>
+								</table>
+								<c:forEach var="homeData" items="${sessionScope.homeData }">
+									<c:if test="${homeData.powerColumn_name == '照片管理'}">
+										<ul class="MM">
+											<li><a href="${homeData.power_uri }" target="main">${homeData.power_name }</a></li>
+										</ul>
+									</c:if>
+								</c:forEach>
+							</div>
 				</tr>
 			</table>
 		</div>

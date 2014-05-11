@@ -166,6 +166,21 @@
     <servlet-name>CustomerDatagridServlet</servlet-name>
     <servlet-class>com.itcast.storemanagement.action.CustomerDatagridServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>ImageAddServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.ImageAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImageDatagridServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.ImageDatagridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImageUpdateServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.ImageUpdateServlet</servlet-class>
+  </servlet>
+
+
+
 
 
 
@@ -370,6 +385,18 @@
   <servlet-mapping>
     <servlet-name>CustomerDatagridServlet</servlet-name>
     <url-pattern>/Customer!datagrid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageAddServlet</servlet-name>
+    <url-pattern>/Image!add.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageDatagridServlet</servlet-name>
+    <url-pattern>/Image!datagrid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageUpdateServlet</servlet-name>
+    <url-pattern>/Image!edit.do</url-pattern>
   </servlet-mapping>
 
 	<welcome-file-list>

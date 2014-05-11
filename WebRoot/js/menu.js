@@ -51,7 +51,10 @@ $j(document).ready(function(){
 			$j(".gmxsgl").slideToggle();
 		});
 		
-		
+		/*//照片管理
+		$j("#zpgl").click(function(){
+			$j(".zpgl").slideToggle();
+		});*/
 		/*//采购管理
 		$("#cggl").click(function(){
 			$(".cggl").slideToggle();
