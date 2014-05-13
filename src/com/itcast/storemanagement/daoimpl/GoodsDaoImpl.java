@@ -1,5 +1,6 @@
 package com.itcast.storemanagement.daoimpl;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -100,5 +101,11 @@ public interface GoodsDaoImpl {
 	 * @throws SQLException
 	 */
 	public List<Goods> getAllGoods(String goodsName) throws SQLException;
+
+	/**
+	 * 报表导出
+	 * @return
+	 */
+	public ResultSet getAllGoodsExcle();
 
 }

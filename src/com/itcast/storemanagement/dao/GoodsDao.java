@@ -154,5 +154,12 @@ public class GoodsDao implements GoodsDaoImpl {
 		}
 		return new Goods(rs.getString(1), rs.getString(2),rs.getString(3),rs.getString(4));
 	}
+	
+	@Override
+	public ResultSet getAllGoodsExcle() {
+		String sql = "select * from t_dc_goods";
+		ResultSet rs = bd.executeQuery(sql);
+		return rs;
+	}
 
 }

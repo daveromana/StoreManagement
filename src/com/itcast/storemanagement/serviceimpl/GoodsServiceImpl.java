@@ -1,5 +1,6 @@
 package com.itcast.storemanagement.serviceimpl;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -92,5 +93,12 @@ public interface GoodsServiceImpl {
 	 * @throws SQLException 
 	 */
 	public Goods getOneGoodsByCondition(String name,String type,String address) throws SQLException;
+
+	/**
+	 * 到处报表需要的ResultSet
+	 * @return
+	 * @throws SQLException
+	 */
+	public ResultSet getAllGoodsExcle() throws SQLException;
 
 }

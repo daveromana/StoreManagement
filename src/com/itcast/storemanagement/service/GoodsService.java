@@ -1,5 +1,6 @@
 package com.itcast.storemanagement.service;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -38,6 +39,11 @@ public class GoodsService implements GoodsServiceImpl{
 	@Override
 	public List<Goods> getAllGoods() throws SQLException {
 		return gd.getAllGoods();
+	}
+	
+	@Override
+	public ResultSet getAllGoodsExcle() throws SQLException {
+		return gd.getAllGoodsExcle();
 	}
 
 	@Override

@@ -101,6 +101,7 @@
 	<input type="button" value="增加" onclick="location.href='Goods!add.do'">
 	<input type="button" value="修改" onclick="goodsUpdate()">
 	<input type="button" value="删除" onclick="goodsDelete()">
+	<input type="button" value="导出报表" onclick="location.href='Goods!datagrid.do?methodType=downexcle'">
 	<a href="Goods!datagrid.do?current_page=1">首页</a> &nbsp
 		<a
 			href="Goods!datagrid.do?current_page=<%=current_page > 1 ? current_page - 1 : current_page%>">上一页</a>

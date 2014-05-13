@@ -178,6 +178,11 @@
     <servlet-name>ImageDownloadServlet</servlet-name>
     <servlet-class>com.itcast.storemanagement.action.ImageDownloadServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>DownloadExcelServlet</servlet-name>
+    <servlet-class>com.itcast.storemanagement.action.DownloadExcelServlet</servlet-class>
+  </servlet>
+
 
 
 
@@ -397,6 +402,10 @@
   <servlet-mapping>
     <servlet-name>ImageDownloadServlet</servlet-name>
     <url-pattern>/Image!download.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadExcelServlet</servlet-name>
+    <url-pattern>/Excel!download.do</url-pattern>
   </servlet-mapping>
 
 	<welcome-file-list>
